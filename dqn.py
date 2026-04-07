@@ -183,7 +183,7 @@ def evaluate_and_collect_states(agent, env_name, episodes=10):
 # MAIN PIPELINE
 # ========================
 def run_experiments():
-    envs = ["LunarLander-v3"]
+    envs = ["CartPole-v1", "LunarLander-v3"]
     seeds = [0, 42, 100]
 
     os.makedirs("models", exist_ok=True)
